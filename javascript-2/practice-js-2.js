@@ -11,6 +11,8 @@
 
 //CODE HERE
 
+let gitDefinition = "Git is a terminal program";
+
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,6 +20,8 @@
 */
 
 //CODE HERE
+
+let gitHubDefinition = "GitHub is a Repository like team foundation server";
 
 //////////////////PROBLEMS 3 - 9////////////////////
 /*
@@ -35,6 +39,14 @@
 
 //CODE HERE
 
+
+let init = {
+    description: 'The init command initializes and controls processes.',
+    code: 'git init'
+}
+
+
+
 //////////////////PROBLEM 4////////////////////
 /*
     Create an object called 'clone' with 'description' and 'code' properties 
@@ -42,6 +54,11 @@
 */
 
 //CODE HERE
+
+let clone = {
+    description: 'The clone command clones a repository.',
+    code: 'git clone'
+}
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -51,6 +68,13 @@
 
 //CODE HERE
 
+
+let status = {
+    description: 'The status command displays the state of the working directory.',
+    code: 'git status'
+}
+
+
 //////////////////PROBLEM 6////////////////////
 /*
     Create an object called 'add' with 'description' and 'code' properties 
@@ -58,6 +82,11 @@
 */
 
 //CODE HERE
+
+let add = {
+    description: 'The add command adds a change in the working directory.',
+    code: 'git add'
+}
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -67,6 +96,12 @@
 
 //CODE HERE
 
+let commit = {
+    description: 'The commit command commits the project to the repository.',
+    code: 'git commit -m'
+}
+
+
 //////////////////PROBLEM 8////////////////////
 /*
     Create an object called 'addRemote' with 'description' and 'code' properties
@@ -75,6 +110,11 @@
 
 //CODE HERE
 
+let addRemote = {
+    description: 'The git remote add command adds a new remote to the repo.',
+    code: 'git remote add origin'
+}
+
 //////////////////PROBLEM 9////////////////////
 /*
     Create an object called 'push' with 'description' and 'code' properties 
@@ -82,3 +122,8 @@
 */
 
 //CODE HERE
+
+let push = {
+    description: 'The push command pusheschanges to the repository.',
+    code: 'git push'
+}
